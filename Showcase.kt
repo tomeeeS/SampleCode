@@ -1,5 +1,5 @@
 /* This is a fragment from one of my apps, and some of its dependencies.
- I believe it shows my knowledge and usage  of: 
+ I believe it shows my knowledge and usage of: 
     - clean code
     - SOLID principles
     - sw architectures (currently using MVVM(I))
@@ -52,7 +52,7 @@ class PlaceOrderFragment: ViewPdfFragment<FragmentPlaceOrderBinding>(R.layout.fr
 } // (by viewModels<>(): fragments ktx extension function. helps to avoid having to write factories for VMs)
 
 
-// these are soem of the stuff PlaceOrderFragment depends on:
+// these are some of the stuff PlaceOrderFragment depends on:
 
 // removes the duplication of common pdf viewer fragment code, (I have an other fragment that shows a pdf too)
 abstract class ViewPdfFragment<ViewDataBindingType: ViewDataBinding>
