@@ -120,7 +120,7 @@ class PlaceOrderViewModel: PdfViewModel() {
     lateinit var contentUri: Uri
 
     override fun generatePdf() {
-        orderPdf = ManageOrdersInteractor.generateOrderPdf()
+        orderPdf = ManageOrdersInteractor.generateOrderPdf() // fun generateOrderPdf() = get<PdfMaker>().makeOrderPdf(currentOrder)
         contentUri = MyFileProvider.getOrderPdfUri(orderPdf)
     }
 
