@@ -1,9 +1,4 @@
 /* This is a fragment from one of my apps, and some of its dependencies.
- I believe it shows my knowledge and usage of: 
-    - clean code
-    - SOLID principles
-    - sw architectures (currently using MVVM(I))
-    - some (relatively) new and powerful Kotlin & Android features (from Jetpack & Architecture components, Kotlin coroutines)
 
  PlaceOrderFragment shows a pdf on the UI, and with a button click it can open an
   email client app with an intent, and have the pdf automatically attached and some
